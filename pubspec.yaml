@@ -1,0 +1,14 @@
+name: number_factorization
+description: Dart package to find Greatest Common Divisor(GCD), Least Common Multiple(LCM) and integer factorization.
+version: 1.0.0
+repository: https://github.com/tejainece/number_factorization
+
+environment:
+  sdk: ^3.7.0-209.1.beta
+
+dependencies:
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
