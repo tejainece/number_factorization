@@ -4,7 +4,7 @@ version: 1.0.0
 repository: https://github.com/tejainece/number_factorization
 
 environment:
-  sdk: ^3.7.0-209.1.beta
+  sdk: ^3.6.0
 
 dependencies:
   # path: ^1.8.0
