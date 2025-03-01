@@ -1,6 +1,6 @@
-double gcd(double a, double b) => b == 0 ? a : gcd(b, a % b);
+num gcd(num a, num b) => b == 0 ? a : gcd(b, a % b);
 
-double gcdAll(Iterable<double> values) {
+num gcdAll(Iterable<num> values) {
   if (values.length == 1) return values.first;
   return gcd(values.first, gcdAll(values.skip(1).toList()));
 }
